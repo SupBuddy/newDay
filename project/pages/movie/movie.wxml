@@ -1,0 +1,3 @@
+<view>
+  <text class='fz28'>{{movieInfo.title}}</text>
+</view>

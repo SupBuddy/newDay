@@ -1,0 +1,12 @@
+<view class='wrap fc ac'>
+  <view class='addrWrap fc ac'>
+    <text animation="{{animation}}" wx:if='{{!isSwitch}}' catchtap='switchLocation' class='addr fz28'>{{currentLocation}}</text>
+    <view wx:else class='addrInput fz28 fr ac jc'>
+      <input type='text' placeholder='输入城市或地区' bindconfirm='confirmLocation'></input>
+      <text catchtap='cancel'>取消</text>
+    </view>
+  </view>
+  <text wx:if='{{weatherInfo.status == "ok"}}' class='temp fz68'>{{weatherInfo.now.tmp}}°</text>
+  <text class='fz32'>{{weatherInfo.now.cond_txt}}</text>
+  <!-- <text animation="{{animation}}">测试</text> -->
+</view>

@@ -1,0 +1,39 @@
+/* flex布局 */
+.fr {
+  display: flex;
+  flex-direction: row;
+}
+.frr {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fc {
+  display: flex;
+  flex-direction: column;
+}
+.ac {
+  align-items: center;
+}
+.afe {
+  align-items: flex-end;
+}
+.jsb {
+  justify-content: space-between;
+}
+.jsa {
+  justify-content: space-around;
+}
+.jc{
+    justify-content: center;
+}
+
+/* 字号 */
+.fz28 {
+  font-size: 28rpx;
+} 
+.fz32 {
+  font-size: 32rpx;
+} 
+.fz68 {
+  font-size: 68rpx;
+} 
