@@ -1,9 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/weather/weather",
-    "pages/movie/movie"
+    "pages/movie/movie",
+    "pages/music/music"
   ],
   "window": {
     "backgroundTextStyle": "light",
