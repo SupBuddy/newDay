@@ -1,0 +1,6 @@
+<view class='container'>
+  <view class='canvasBox'>
+    <canvas canvas-id='myCanvas' style='width:375px;height:500px;margin: 0;padding: 0;display:block;'></canvas>
+  </view>
+  <view class='btn' bindtap="saveImage">保存图片</view>
+</view>

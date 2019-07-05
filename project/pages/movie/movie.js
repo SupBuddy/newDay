@@ -1,4 +1,4 @@
-var app = getApp();
+const app = getApp();
 Page({
 
   /**
@@ -34,7 +34,7 @@ Page({
   getMovie(idx){
     app.http('https://douban.uieee.com/v2/movie/top250',{
       start: idx,
-      count: 5 
+      count: 1
     },res => {
       console.log(res)
       this.setData({
