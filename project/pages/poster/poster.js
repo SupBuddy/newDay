@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    bgPath: 'https://illustrationfriday.com/wp-content/themes/illustration-friday/lib/timthumb.php?src=https%3A%2F%2Fillustrationfriday.com%2Fwp-content%2Fuploads%2Fiuf_image%2F-795dd7a7.jpg&w=500&zc=1?src=https://illustrationfriday.com/wp-content/themes/illustration-friday/lib/timthumb.php?src=https%3A%2F%2Fillustrationfriday.com%2Fwp-content%2Fuploads%2Fiuf_image%2F-795dd7a7.jpg&w=500&zc=1&w=500&zc=1&alignment=c&cc=#efefef&ct=0',
-    avatarPath: 'https://illustrationfriday.com/wp-content/themes/illustration-friday/lib/timthumb.php?src=http%3A%2F%2Fillustrationfriday.com%2Fwp-content%2Fuploads%2Fiuf_image%2F-25f2cfe8.jpg&w=500&zc=1?src=https://illustrationfriday.com/wp-content/themes/illustration-friday/lib/timthumb.php?src=http%3A%2F%2Fillustrationfriday.com%2Fwp-content%2Fuploads%2Fiuf_image%2F-25f2cfe8.jpg&w=500&zc=1&w=500&zc=1&alignment=c&cc=#efefef&ct=0',
+    bgPath: 'https://gw.alicdn.com/tfscom/i1/TB1hyBBjtTfau8jSZFwXXX1mVXa_.jpg',
+    avatarPath: 'https://gw.alicdn.com/tfscom/i1/TB1hyBBjtTfau8jSZFwXXX1mVXa_.jpg',
     descTxt: 'Life is short, seize the day.'
   },
 

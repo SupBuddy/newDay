@@ -94,7 +94,7 @@ Page({
           currentLocation: res.data.HeWeather6[0].basic.location
         })
       } else {
-        app.hint('请输入正确的城市或地区')
+        app.toast('请输入正确的城市或地区')
         this.setData({
           isSwitch: true,
           currentLocation: ''

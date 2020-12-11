@@ -34,13 +34,17 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": 0,
-					"name": "test",
-					"pathName": "pages/weather/weather",
+					"name": "pages/music/music",
+					"pathName": "pages/music/music",
 					"query": "",
 					"scene": null
 				}

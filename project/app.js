@@ -14,7 +14,7 @@ App({
     })
   },
   // 提示框
-  hint: function (msg) {
+  toast: function (msg) {
     wx.showToast({
       title: msg,
       icon: "none",
